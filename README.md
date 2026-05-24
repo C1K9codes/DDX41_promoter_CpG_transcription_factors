@@ -46,6 +46,7 @@ Coordinates used:
 The specific gene i.e DDX41's genomic coordinates were taken from UCSC Genome Browser, Santa Cruz. Based on the exact genomic coordinates and orientation of the strand the promoter sequence coordinates were calculated. The view DNA sequence option was chosen to get the sequence. Afterwards, the DNA sequence was copy-pasted onto CpGplot EMBOSS webtool. The tool then determined the presence of CpG island based on parameters such as more than 200 bp and >50% of GC content. The gene DDX41 has CpG island from 48-522 base pairs which is about 475 bp long CpG stretch. 
 
 From UCSC Genome Browser, the earlier copied and pasted sequence of about 2001 base pairs was taken to R and stored as Biostring/DNAString and subsequence was isoloated correspnding to that CpG island. Then complete pipeline for TF extraction was ran over the sub-sequence extracted and gave precise and most probable motifs and 21 transcription factors. Point to be noted, CpGplot works well for methylation TF data.
+
 ---
 
 ## Results
